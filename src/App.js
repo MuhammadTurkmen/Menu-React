@@ -6,7 +6,9 @@ import items from './data';
 function App() {
   const [menuItems, setMenuItems] = useState(items)
   const [categories, setCategories] = useState([])
-  return <h2>menu project setup</h2>;
-}
+
+  return <main>
+    <section className='menu section'></section>
+  </main>
 
 export default App;
