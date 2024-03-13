@@ -11,4 +11,5 @@ function App() {
     <section className='menu section'></section>
   </main>
 
+}
 export default App;
