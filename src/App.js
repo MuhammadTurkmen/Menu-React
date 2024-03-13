@@ -3,7 +3,9 @@ import Menu from './Menu';
 import Categories from './Categories';
 import items from './data';
  
-const allCategories = items.map((item) => item.category)
+const allCategories =  new Set(items.map((item) => item.category))
+
+
 
 function App() {
   const [menuItems, setMenuItems] = useState(items)
