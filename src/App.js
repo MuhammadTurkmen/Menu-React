@@ -12,9 +12,9 @@ function App() {
       <div className="title">
         <h2>our menu</h2>
         <div className="underline"></div>
+      </div>
         <Categories />
         <Menu />
-      </div>
     </section>
 
   </main>
