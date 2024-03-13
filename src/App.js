@@ -5,6 +5,7 @@ import items from './data';
  
 function App() {
   const [menuItems, setMenuItems] = useState(items)
+  const [Categories, setCategories] = useState([])
   return <h2>menu project setup</h2>;
 }
 
