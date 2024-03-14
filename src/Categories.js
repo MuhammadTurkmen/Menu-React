@@ -9,7 +9,7 @@ const Categories = ({categories, filterItems}) => {
         {category}
       </button>
     })}
-  </div>
+  </div> 
 }; 
 
 export default Categories;
